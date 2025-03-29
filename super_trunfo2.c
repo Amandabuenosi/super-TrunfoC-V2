@@ -7,10 +7,10 @@ int main(){
     char letraestado = 'S';
     char codigocarta[4] =("S01");
     char nomecidade[40]="São Paulo";
-    unsigned int populacao =100;
-    float area= 100;
-    float PIB= 1000;
-    int Pontos_turísticos=8;
+    unsigned int populacao = 4895578;
+    float area= 1521;
+    float PIB= 313000;
+    int Pontos_turísticos=86;
     float densidade1 = populacao / area;
    
  
@@ -19,10 +19,10 @@ int main(){
     char letraestado2 = 'F';
     char codigocarta2[4]=("F01");
     char nomecidade2[40]="Fortaleza";
-    unsigned int populacao2= 100;
-    float area2= 100;
-    float PIB2= 1000;
-    int Pontos_turísticos2= 8;
+    unsigned int populacao2= 2428000;
+    float area2= 313.800;
+    float PIB2= 242000;
+    int Pontos_turísticos2= 53;
     float densidade2=populacao2 / area2;
     
        
@@ -296,8 +296,8 @@ int main(){
                     case 2:// menu segundo atributo.-------AREA
                         printf("%s e %s\n\n", nomecidade, nomecidade2);
                         printf("Os atributos utlizados são: PIB e Área.\n");
-                        printf("A cidade %s, possui um PIB de %2.f e uma Área de %d.\n",nomecidade, PIB, area);
-                        printf("A cidade %s, possui um PIB de %2.f e uma Área de %d.\n",nomecidade2, PIB2, area2);
+                        printf("A cidade %s, possui um PIB de %2.f e uma Área de %.2f.\n",nomecidade, PIB, area);
+                        printf("A cidade %s, possui um PIB de %2.f e uma Área de %.2f.\n",nomecidade2, PIB2, area2);
                         soma = (PIB+area);
                         soma2 = (PIB2+area2);
                         printf("A soma para %s é: %.2f\n", nomecidade, soma);
@@ -544,5 +544,4 @@ printf("Opção inválida\n");}
        
 
 return 0;
- }                    
-        
+ }       
